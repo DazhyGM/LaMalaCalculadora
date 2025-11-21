@@ -16,7 +16,6 @@ namespace BadCalcVeryBad
 
         internal U() { }
 
-
         public static void IncrementCounter()
         {
             Counter++;
@@ -30,7 +29,6 @@ namespace BadCalcVeryBad
 
         public string Misc { get; set; } = "";
     }
-
 
     public static class ShoddyCalc
     {
@@ -46,9 +44,9 @@ namespace BadCalcVeryBad
                 "+" => A + B,
                 "-" => A - B,
                 "*" => A * B,
-                "/" => B == 0 ? A / (B + 0.0000001) : A / B,
+                "/" => Math.Abs(B) < 1e-9 ? A / (B + 1e-9) : A / B,
                 "^" => Math.Pow(A, B),
-                "%" => (B == 0) ? 0 : A % B,
+                "%" => Math.Abs(B) < 1e-9 ? 0 : A % B,
                 _ => 0
             };
         }
@@ -63,7 +61,6 @@ namespace BadCalcVeryBad
 
     class Program
     {
-
         private static readonly U globals = new U();
 
         static void Main(string[] args)
@@ -130,9 +127,9 @@ namespace BadCalcVeryBad
                 }
                 else
                 {
-                    if (o == "4" && TryParse(b) == 0)
+                    if (o == "4" && Math.Abs(TryParse(b)) < 1e-9)
                     {
-                        res = ShoddyCalc.DoIt(a, (TryParse(b) + 0.0000001).ToString(), "/");
+                        res = ShoddyCalc.DoIt(a, (TryParse(b) + 1e-9).ToString(), "/");
                     }
                     else
                     {
@@ -164,6 +161,7 @@ namespace BadCalcVeryBad
             "4" => "/",
             "5" => "^",
             "6" => "%",
+
             "7" => "sqrt",
             _ => ""
         };
