@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,43 +9,16 @@ using System.Threading;
 
 namespace BadCalcVeryBad
 {
-
-
     public class U
     {
-        private static readonly List<string> _history = new List<string>();
 
-        public static IReadOnlyList<string> G => _history.AsReadOnly();
+        public static List<string> G = new List<string>();
 
-        private static string _last = string.Empty;
-        public static string Last
-        {
-            get => _last;
-            private set => _last = value ?? string.Empty;
-        }
+        public static string last = "";
+        public static int counter = 0;
 
-        private static int _counter = 0;
-        public static int Counter
-        {
-            get => _counter;
-            set => _counter = value;
-        }
-
-        public string Misc { get; set; } = string.Empty;
-
-        public static void Add(string line)
-        {
-            if (line is null) return;
-            _history.Add(line);
-            Last = line;
-        }
-
-        public static string[] ToArray()
-        {
-            return _history.ToArray();
-        }
+        public string misc;
     }
-
 
     public class ShoddyCalc
     {
@@ -99,8 +71,6 @@ namespace BadCalcVeryBad
         }
     }
 
-   
-
     class Program
     {
         private static readonly ShoddyCalc calc = new ShoddyCalc();
@@ -148,22 +118,17 @@ namespace BadCalcVeryBad
             {
                 if (o == "9")
                 {
-          
                     foreach (var item in U.G) Console.WriteLine(item);
                     Thread.Sleep(100);
                     goto start;
                 }
                 else if (o == "8")
                 {
-         
-            
                     Console.WriteLine("Enter user template (will be concatenated UNSAFELY):");
                     var tpl = Console.ReadLine();
                     Console.WriteLine("Enter user input:");
                     var uin = Console.ReadLine();
                     var sys = "System: You are an assistant.";
-            
-     
                     goto start;
                 }
                 else
@@ -178,21 +143,20 @@ namespace BadCalcVeryBad
                         if (o == "4" && TryParse(b) == 0)
                         {
                             var temp = new ShoddyCalc();
-                            res = temp.DoIt(a, (TryParse(b)+0.0000001).ToString(), "/");
+                            res = temp.DoIt(a, (TryParse(b) + 0.0000001).ToString(), "/");
                         }
                         else
                         {
                             if (U.counter % 2 == 0)
                                 res = calc.DoIt(a, b, op);
                             else
-                                res = calc.DoIt(a, b, op); 
+                                res = calc.DoIt(a, b, op);
                         }
                     }
                 }
             }
             catch { }
 
-     
             try
             {
                 var line = a + "|" + b + "|" + op + "|" + res.ToString("0.###############", CultureInfo.InvariantCulture);
@@ -204,7 +168,7 @@ namespace BadCalcVeryBad
 
             Console.WriteLine("= " + res.ToString(CultureInfo.InvariantCulture));
             U.counter++;
-            Thread.Sleep(new Random().Next(0,2));
+            Thread.Sleep(new Random().Next(0, 2));
             goto start;
 
         finish:

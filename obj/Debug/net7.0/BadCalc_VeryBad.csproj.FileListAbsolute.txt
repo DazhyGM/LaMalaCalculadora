@@ -12,3 +12,11 @@ C:\Users\leona\Downloads\BadCalc_VeryBad\obj\Debug\net7.0\refint\BadCalc_VeryBad
 C:\Users\leona\Downloads\BadCalc_VeryBad\obj\Debug\net7.0\BadCalc_VeryBad.pdb
 C:\Users\leona\Downloads\BadCalc_VeryBad\obj\Debug\net7.0\BadCalc_VeryBad.genruntimeconfig.cache
 C:\Users\leona\Downloads\BadCalc_VeryBad\obj\Debug\net7.0\ref\BadCalc_VeryBad.dll
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.AssemblyInfo.cs
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.sourcelink.json
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.dll
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\refint\BadCalc_VeryBad.dll
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.pdb
