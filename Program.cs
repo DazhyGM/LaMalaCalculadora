@@ -8,18 +8,31 @@ namespace BadCalcVeryBad
 {
     public class U
     {
-        public static readonly List<string> G = new List<string>();
+        private static readonly List<string> _g = new List<string>();
+        public static IReadOnlyList<string> G => _g;
+
         public static string Last { get; private set; } = "";
         public static int Counter { get; private set; }
+
+        internal U() { }
+
+
         public static void IncrementCounter()
         {
             Counter++;
         }
 
+        public static void AddHistory(string line)
+        {
+            _g.Add(line);
+            Last = line;
+        }
+
         public string Misc { get; set; } = "";
     }
 
-    public class ShoddyCalc
+
+    public static class ShoddyCalc
     {
         public static readonly Random r = new Random();
 
@@ -50,7 +63,7 @@ namespace BadCalcVeryBad
 
     class Program
     {
-        private static readonly ShoddyCalc calc = new ShoddyCalc();
+
         private static readonly U globals = new U();
 
         static void Main(string[] args)
@@ -160,7 +173,7 @@ namespace BadCalcVeryBad
             var line = $"{a}|{b}|{op}|{res.ToString("0.###############", CultureInfo.InvariantCulture)}";
             try
             {
-                U.G.Add(line);
+                U.AddHistory(line);
                 globals.Misc = line;
                 File.AppendAllText("history.txt", line + Environment.NewLine);
             }
@@ -192,7 +205,7 @@ namespace BadCalcVeryBad
         {
             try
             {
-                File.WriteAllText("leftover.tmp", string.Join(",", U.G.ToArray()));
+                File.WriteAllText("leftover.tmp", string.Join(",", U.G));
             }
             catch (Exception ex)
             {
@@ -205,6 +218,7 @@ namespace BadCalcVeryBad
             try { return double.Parse(s.Replace(',', '.'), CultureInfo.InvariantCulture); }
             catch { return 0; }
         }
+
         static double TrySqrt(double v)
         {
             double g = v;
