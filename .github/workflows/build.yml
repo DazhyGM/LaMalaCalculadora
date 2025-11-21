@@ -53,10 +53,10 @@ jobs:
             /k:"DazhyGM_LaMalaCalculadora" `
             /o:"dazhygm" `
             /d:sonar.token="${{ secrets.SONAR_TOKEN }}" `
-            /d:sonar.cs.opencover.reportsPaths="" `
             /d:sonar.coverage.exclusions="**"
 
           dotnet build BadCalc_VeryBad.csproj
 
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end `
             /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
