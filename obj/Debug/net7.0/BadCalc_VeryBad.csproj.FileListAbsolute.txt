@@ -20,3 +20,10 @@ C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\ne
 C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.dll
 C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\refint\BadCalc_VeryBad.dll
 C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.pdb
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\bin\Debug\net7.0\BadCalc_VeryBad.exe
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\bin\Debug\net7.0\BadCalc_VeryBad.deps.json
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\bin\Debug\net7.0\BadCalc_VeryBad.runtimeconfig.json
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\bin\Debug\net7.0\BadCalc_VeryBad.dll
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\bin\Debug\net7.0\BadCalc_VeryBad.pdb
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\BadCalc_VeryBad.genruntimeconfig.cache
+C:\Users\Admin\Downloads\CALCULADORAS METRICAS\C#\LaMalaCalculadora\obj\Debug\net7.0\ref\BadCalc_VeryBad.dll

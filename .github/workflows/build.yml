@@ -50,5 +50,5 @@ jobs:
         shell: powershell
         run: |
           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"DazhyGM_LaMalaCalculadora" /o:"dazhygm" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-          dotnet build LaMalaCalculadora/BadCalc_VeryBad.csproj
+          dotnet build BadCalc_VeryBad.csproj
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
