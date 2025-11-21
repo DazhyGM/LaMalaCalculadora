@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\",
+  "WorkspaceRootPath": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\admin\\downloads\\calculadoras metricas\\c#\\lamalacalculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\admin\\downloads\\calculadoras metricas\\c#\\lamalacalculadora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\leona\\downloads\\badcalc_verybad\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\admin\\downloads\\calculadoras metricas\\c#\\lamalacalculadora\\auto_prompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\leona\\downloads\\badcalc_verybad\\auto_prompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|solutionrelative:auto_prompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\admin\\downloads\\calculadoras metricas\\c#\\lamalacalculadora\\badcalc_verybad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\leona\\downloads\\badcalc_verybad\\badcalc_verybad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|solutionrelative:badcalc_verybad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|c:\\users\\leona\\downloads\\badcalc_verybad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3062C6C9-B8CC-5B59-11E3-A917E5BA3D45}|BadCalc_VeryBad.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +28,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
@@ -226,7 +222,7 @@
         },
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -245,16 +241,12 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\README.md",
+              "DocumentMoniker": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\README.md",
+              "ToolTip": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\README.md",
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
@@ -263,37 +255,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AUTO_PROMPT.txt",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\AUTO_PROMPT.txt",
+              "DocumentMoniker": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\AUTO_PROMPT.txt",
               "RelativeDocumentMoniker": "AUTO_PROMPT.txt",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\AUTO_PROMPT.txt",
+              "ToolTip": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\AUTO_PROMPT.txt",
               "RelativeToolTip": "AUTO_PROMPT.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-04T19:17:21.578Z"
+              "WhenOpened": "2025-11-04T19:17:21.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BadCalc_VeryBad",
+              "DocumentMoniker": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\BadCalc_VeryBad.csproj",
+              "RelativeDocumentMoniker": "BadCalc_VeryBad.csproj",
+              "ToolTip": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\BadCalc_VeryBad.csproj",
+              "RelativeToolTip": "BadCalc_VeryBad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T19:13:07.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BadCalc_VeryBad.csproj",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\BadCalc_VeryBad.csproj",
-              "RelativeDocumentMoniker": "BadCalc_VeryBad.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\BadCalc_VeryBad.csproj",
-              "RelativeToolTip": "BadCalc_VeryBad.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T19:13:07.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\CALCULADORAS METRICAS\\C#\\LaMalaCalculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\leona\\Downloads\\BadCalc_VeryBad\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAcwN4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:11:39.915Z",
               "EditorCaption": ""

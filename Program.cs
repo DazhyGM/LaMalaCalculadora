@@ -10,15 +10,43 @@ using System.Threading;
 
 namespace BadCalcVeryBad
 {
-  
+
 
     public class U
     {
-        public static ArrayList G = new ArrayList(); 
-        public static string last = "";
-        public static int counter = 0;
-        public string misc;
+        private static readonly List<string> _history = new List<string>();
+
+        public static IReadOnlyList<string> G => _history.AsReadOnly();
+
+        private static string _last = string.Empty;
+        public static string Last
+        {
+            get => _last;
+            private set => _last = value ?? string.Empty;
+        }
+
+        private static int _counter = 0;
+        public static int Counter
+        {
+            get => _counter;
+            set => _counter = value;
+        }
+
+        public string Misc { get; set; } = string.Empty;
+
+        public static void Add(string line)
+        {
+            if (line is null) return;
+            _history.Add(line);
+            Last = line;
+        }
+
+        public static string[] ToArray()
+        {
+            return _history.ToArray();
+        }
     }
+
 
     public class ShoddyCalc
     {
@@ -75,8 +103,8 @@ namespace BadCalcVeryBad
 
     class Program
     {
-        public static ShoddyCalc calc = new ShoddyCalc();
-        public static U globals = new U();
+        private static readonly ShoddyCalc calc = new ShoddyCalc();
+        private static readonly U globals = new U();
 
         static void Main(string[] args)
         {
